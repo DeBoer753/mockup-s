@@ -13,7 +13,7 @@ html, body {
   padding-left: 120px;
   padding-right: 120px;
   box-shadow: 0px 2px 4px rgb(87, 86, 86);
-  background-color: white;
+  background-color: #FCFBF7;
   height: 100px;
   /* border: 1px red solid; */
   top: 0;
@@ -263,7 +263,7 @@ a:hover {
   padding: 50px;
   text-align: center;
   /* width: 952px; */
-  background-color: rgb(249, 248, 244);
+  background-color: rgb(248, 247, 242);
   /* border: 1px red solid; */
 }
 
@@ -281,7 +281,7 @@ a:hover {
 #scrollToMission {
   padding-bottom: 40px;
   /* border: 2px blue solid; */
-  background-color: rgb(249, 248, 244);
+  background-color: rgb(248, 247, 242);
 }
 
 /* <----------------------------------------> */
@@ -291,7 +291,7 @@ a:hover {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-color: rgb(249, 248, 244);
+  background-color: rgb(248, 247, 242);
   /* border: 1px red solid; */
   padding-left: 50px;
   padding-right: 50px;
@@ -371,7 +371,7 @@ button:hover, .responsiveButton button:hover {
   display: none;
   width: 20%;
   /* border: 1px blue solid; */
-  background-color: rgb(249, 248, 244);
+  background-color: rgb(248, 247, 242);
 }
 
 .responsiveButton button {
@@ -392,7 +392,7 @@ button:hover, .responsiveButton button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(249, 248, 244);
+  background-color: rgb(248, 247, 242);
 }
 
 @media only screen and (min-width: 0px) and (max-width: 1041px) {
@@ -584,7 +584,7 @@ button:hover, .responsiveButton button:hover {
 .PhotographyBox {
   display: flex;
   justify-content: center;
-  background-color: rgb(249, 248, 244);
+  background-color: rgb(248, 247, 242);
   padding-bottom: 80px;
   padding-top: 60px;
   /* border: 1px red solid; */
