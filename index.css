@@ -28,14 +28,17 @@ html, body {
   align-items: center;
   /* border: 1px red solid; */
 }
+
 .logoImg {
   width: 80px;
   height: 70px;
   padding-right: 10px;
 }
+
 .logoImg:hover {
   cursor: pointer;
 }
+
 .sleepless {
   margin-top: 10px;
   margin-bottom: 0;
@@ -48,6 +51,7 @@ html, body {
 .sleepless:hover {
   cursor: pointer;
 }
+
 .testProject {
   margin-top: 0;
   font-size: 10px;
@@ -85,6 +89,7 @@ html, body {
   text-decoration: none;
   color: rgb(0, 0, 0);
 }
+
 a:hover {
   cursor: pointer;
 }
@@ -95,6 +100,7 @@ a:hover {
 }
 
 @media(max-width: 703px) {
+
   .navbarBox {
     flex-direction: column;
   }
@@ -102,6 +108,7 @@ a:hover {
   .logoImg {
     display: none;
   }
+
 }
 
 /* <----------------------------------------> */
@@ -112,6 +119,7 @@ a:hover {
   cursor: pointer;
   /* border: 1px green solid; */
 }
+
 .bar {
   display: block;
   width: 40px;
@@ -121,6 +129,7 @@ a:hover {
   transition: all 0.3s ease-in-out;
   background-color: black;
 }
+
 @media(max-width: 1233px) {
 
   .anchorBox {
@@ -134,14 +143,12 @@ a:hover {
     top: 100px;
     gap: 0;
     padding-bottom: 20px;
-
     text-align: center;
     transition: 0.3s;
   }
 
   .anchorBox a {
     color: white;
-
     padding: 10px;
     margin-left: 20px;
     margin-right: 20px;
@@ -154,7 +161,6 @@ a:hover {
 
   .anchorBox div:hover {
     border-bottom: none;
-  
   }
 
   .hamburger {
@@ -165,9 +171,11 @@ a:hover {
   .hamburger.active .bar:nth-child(2) {
     opacity: 0;
   }
+
   .hamburger.active .bar:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
   }
+
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
@@ -178,15 +186,17 @@ a:hover {
 
   .anchorBox.active {
     Left: 0;
-    
   }
 
 }
 
 @media(max-width: 703px) {
+
   .hamburger {
     margin-top: 0px;
+    margin-bottom: 20px;
   }
+
   .bar {
     width: 30px;
     height: 3px;
@@ -197,6 +207,7 @@ a:hover {
     justify-content: center;
     
   }
+
 }
 
 /* <----------------------------------------> */
@@ -231,15 +242,12 @@ a:hover {
 .slider ul li img {
   width: 100%;
   object-fit: fill;
-
-
 }
 
 .thumbnailImg {
   box-shadow: 0px 2px 4px rgb(87, 86, 86);
   width: 100%;
   object-fit: cover;
-  
 }
 
 #prev, #next {
@@ -270,6 +278,12 @@ a:hover {
   font-size: 15px;
 }
 
+#scrollToMission {
+  padding-bottom: 40px;
+  /* border: 2px blue solid; */
+  background-color: rgb(249, 248, 244);
+}
+
 /* <----------------------------------------> */
 /* BUILDING WEBSITES */
 
@@ -296,10 +310,12 @@ a:hover {
   font-size: 30px;
   font-weight: normal;
 }
+
 .buildingWebsitesBox2 h2 {
 font-size: 15px;
 font-family: Arial, Helvetica, sans-serif;
 }
+
 .buildingWebsitesBox2 p {
 color: rgb(110, 109, 109);
 font-size: 15px;
@@ -336,6 +352,7 @@ font-size: 15px;
   /* margin-right: 90px; */
   transition: 300ms ease-in-out;
 }
+
 button:hover, .responsiveButton button:hover {
   cursor: pointer;
   background-color: #507f81;
@@ -349,12 +366,14 @@ button:hover, .responsiveButton button:hover {
 .responsiveImg {
   display: none;
 }
+
 .responsiveButton {
   display: none;
   width: 20%;
   /* border: 1px blue solid; */
   background-color: rgb(249, 248, 244);
 }
+
 .responsiveButton button {
   background-color: #355556;
   border: none;
@@ -409,8 +428,8 @@ button:hover, .responsiveButton button:hover {
   }
   .responsiveButton button {
     font-size: 8px;
+    margin-top: 0px;
   }
-  
   
 }
 
@@ -454,7 +473,6 @@ button:hover, .responsiveButton button:hover {
 }
 
 .meetTheTeamBox2 h2 {
-
   font-size: 15px;
   text-align: center;
   width: 300px;
@@ -466,6 +484,7 @@ button:hover, .responsiveButton button:hover {
   transition: 200ms ease-in-out;
   border-bottom: 3px #355556 solid;
 }
+
 .meetTheTeamBox2 h2:hover {
   border-bottom: 3px #35555600 solid;
 }
@@ -509,6 +528,7 @@ button:hover, .responsiveButton button:hover {
   margin-top: 0;
   /* border: 1px blue dashed; */
 }
+
 #back, #forward {
   text-decoration: none;
   background-color: #355556;
@@ -534,6 +554,7 @@ button:hover, .responsiveButton button:hover {
   #forward {
     display: none;
   }
+
 }
 
 @media only screen and (min-width: 0px) and (max-width: 1041px) {
@@ -554,6 +575,7 @@ button:hover, .responsiveButton button:hover {
     margin: 0;
     width: 30%;
   }
+
 }
 
 /* <----------------------------------------> */
@@ -612,27 +634,33 @@ button:hover, .responsiveButton button:hover {
   .contentBox1 {
     flex-direction: column;
   }
+
   .contentBox1 h1{
     text-align: center;
   }
+
   .contentBox1 img{
     width: 80%;
   }
+
   .contentBox2 {
     flex-direction: column;
     padding-top: 50px;
     gap: 50px;
     align-content: center;
   }
+
   .photo2 {
     margin: 0 auto;
     display: flex;
     width: 70%;
   }
+
   .photo3 {
     margin: 0 auto;
     width: 60%;
     }
+
 }
 
 /* <----------------------------------------> */
@@ -644,6 +672,7 @@ button:hover, .responsiveButton button:hover {
   background-color: #355556;
   /* border: 1px red solid; */
 }
+
 .footerBox2 {
   display: flex;
   flex-direction: row;
@@ -659,6 +688,7 @@ button:hover, .responsiveButton button:hover {
   align-items: flex-start;
   margin-left: 50px;
 }
+
 .footerContent1 h1 {
   font-family: 'Times New Roman', Times, serif;
   font-weight: normal;
@@ -666,6 +696,7 @@ button:hover, .responsiveButton button:hover {
   text-align: left;
   color: white;
 }
+
 .footerContent1 p {
   color: rgb(168, 168, 168);
   margin-top: 40px;
@@ -692,6 +723,7 @@ button:hover, .responsiveButton button:hover {
   line-height: 30px;
   margin-right: 177px;
 }
+
 .footerContent2 h2:hover {
   cursor: pointer;
 }
@@ -704,7 +736,6 @@ button:hover, .responsiveButton button:hover {
   /* border: 1px red solid; */
   margin-left: 50px;
 }
-
 
 .buttonBox {
   display: flex;
@@ -732,6 +763,7 @@ button:hover, .responsiveButton button:hover {
   display: flex;
   justify-content: center;
 }
+
 .copyright p {
   color: rgb(168, 168, 168);
   text-align: center;
@@ -759,6 +791,7 @@ button:hover, .responsiveButton button:hover {
     margin-left: 0px;
     width: 100%;
   }
+
   .footerContent1 h1 {
   text-align: center;
   margin: 0 20px 20px 20px;
@@ -799,11 +832,6 @@ button:hover, .responsiveButton button:hover {
   .copyright p {
     display: block;
   }
+
 }
 
-
-#scrollToMission {
-  padding-bottom: 40px;
-  /* border: 2px blue solid; */
-  background-color: rgb(249, 248, 244);
-}
